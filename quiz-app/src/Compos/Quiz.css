@@ -1,0 +1,122 @@
+/* =========================
+   QUIZ PAGE (Quiz.css)
+========================= */
+
+/* Full page container */
+.quiz-container {
+
+    min-height: 100vh;
+    /* Minimum full screen height */
+
+    display: flex;
+
+    justify-content: center;
+    /* Horizontal center */
+
+    align-items: center;
+    /* Vertical center */
+
+    background-color: #f4f4f4;
+}
+
+/* Quiz card */
+.quiz-box {
+
+    width: 500px;
+
+    background-color: white;
+
+    padding: 30px;
+    /* Inner spacing */
+
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    /* Shadow effect */
+}
+
+/* Heading */
+.quiz-box h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Question */
+.quiz-box h2 {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Options container */
+.options {
+
+    display: flex;
+
+    flex-direction: column;
+    /* Buttons vertical */
+
+    gap: 15px;
+    /* Space between buttons */
+}
+
+/* Option buttons */
+.options button {
+
+    padding: 12px;
+
+    border: none;
+
+    background-color: #0077ff;
+
+    color: white;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+    font-size: 15px;
+}
+
+/* Hover effect */
+.options button:hover {
+    background-color: #005ed1;
+}
+
+/* Next/Finish button */
+.next-btn {
+
+    margin-top: 25px;
+
+    width: 100%;
+    /* Full width */
+
+    padding: 12px;
+
+    border: none;
+
+    background-color: green;
+
+    color: white;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+/* Hover */
+.next-btn:hover {
+    background-color: darkgreen;
+}
+
+/* Disabled state */
+.next-btn:disabled {
+
+    background-color: gray;
+
+    cursor: not-allowed;
+    /* Block cursor */
+}

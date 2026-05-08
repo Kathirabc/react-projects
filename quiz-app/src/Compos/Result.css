@@ -1,0 +1,40 @@
+/* =========================
+   RESULT PAGE (Result.css)
+========================= */
+
+/* Full page center */
+.result-container {
+
+    height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+/* Result card */
+.result-box {
+
+    background-color: white;
+
+    padding: 40px;
+
+    border-radius: 10px;
+
+    text-align: center;
+    /* Centers text */
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Main heading */
+.result-box h1 {
+    margin-bottom: 20px;
+}
+
+/* Score text */
+.result-box h2 {
+    color: #0077ff;
+}

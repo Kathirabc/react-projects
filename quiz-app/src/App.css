@@ -1,0 +1,21 @@
+/* =========================
+   GLOBAL RESET (App.css)
+========================= */
+
+/* Removes default browser spacing */
+* {
+  margin: 0;
+  /* Removes outside spacing */
+  padding: 0;
+  /* Removes inside spacing */
+  box-sizing: border-box;
+  /* Includes padding & border inside width */
+  font-family: Arial, Helvetica, sans-serif;
+  /* Default font */
+}
+
+/* Body background */
+body {
+  background-color: #f4f4f4;
+  /* Light gray background */
+}
