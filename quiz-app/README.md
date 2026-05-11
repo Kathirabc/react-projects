@@ -14,7 +14,7 @@ Users can enter their name, attempt multiple-choice questions, navigate through 
 > (Add your deployed link here later, e.g. Vercel / Netlify)
 ```
 
-[https://your-live-demo-link.com](https://your-live-demo-link.com)
+[https://react-projects-rjy7.vercel.app/](https://react-projects-rjy7.vercel.app/)
 
 ```
 
@@ -129,8 +129,7 @@ http://localhost:5173
 * 🔀 Randomize questions on each attempt
 * 📈 Difficulty levels (Easy / Medium / Hard)
 * 🏆 Leaderboard system
-* 🔗 Backend integration (Node.js / Firebase)
-* 💾 Save user history and scores
+
 
 ---
 
