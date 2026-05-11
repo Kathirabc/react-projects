@@ -168,9 +168,3 @@ Give it a star ⭐ on GitHub and feel free to contribute or fork it!
 ```
 
 ---
-
-If you want next upgrade, I can also:
-- turn this into a **portfolio-ready README with badges + GIF preview**
-- or help you **deploy it on Vercel step-by-step**
-- or convert it into a **professional resume project description**
-```

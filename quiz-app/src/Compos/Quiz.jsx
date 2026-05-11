@@ -8,13 +8,13 @@ const Quiz = () => {
     const [crntQz,setCrntQz]=useState(0)
     const [optChosen ,setOptChosen]=useState("")
     const {name ,setScore}=useContext(QuizData)
-    const nextBtnRef=useRef(null) ///initial shold be entered 
+    const nextBtnRef=useRef(null) ///initial should be entered 
 
  
 
     function finish(){
         if (optChosen == questions[crntQz].answer) {
-            setScore((score)=> score + 1)
+            setScore((prev)=> prev + 1)
         }
         navigate("/result")
     }
@@ -23,7 +23,7 @@ const Quiz = () => {
 
 
         if(optChosen== questions[crntQz].answer ){
-            setScore((score)=>score+1)
+            setScore((prev)=>prev+1)
             
         }
         setCrntQz((crntQz)=>crntQz + 1)

@@ -12,9 +12,20 @@ const Result = () => {
 
       <div className='result-box'>
 
-        <h1>Quiz Completed 🎉</h1>
+        <h1>Quiz Completed !</h1>
 
-        <h2>{name}, Your Score is {score}</h2>
+        <h2>{name}, Your Score is {score} / 5 </h2>
+        {score < 5 &&
+        
+        <button 
+        onClick={() => navigate("/")} 
+        className='next-btn'
+        
+        >
+          Start Quiz Again </button>
+        
+        }
+        
 
       </div>
 
