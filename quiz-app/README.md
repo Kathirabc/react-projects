@@ -134,21 +134,13 @@ http://localhost:5173
 
 ---
 
-## 📸 Screenshots
 
-> Add screenshots here
-
-```
-/screenshots/home.png
-/screenshots/quiz.png
-/screenshots/result.png
-```
 
 ---
 
 ## 👨‍💻 Author
 
-* GitHub: [https://github.com/your-username](https://github.com/your-username)
+* GitHub: [https://github.com/Kathirabc](https://github.com/Kathirabc)
 * Project: React Quiz App
 
 ---
